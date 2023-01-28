@@ -4,14 +4,14 @@ import platform
 import cx_Oracle
 import pandas as pd
 
-# Try para tentativa de Conexão 
+# Try para tentativa de Conexão
 # com o Banco de Dados
 try:
 
     # Checa o sistema operacional
     op_sys = platform.system()
     comando = ''
-
+ 
     # Especifica o comando para limpeza de tela
     if op_sys == 'Windows':
         comando = 'cls'
