@@ -4,3 +4,5 @@ create table petshop(
     nome_pet VARCHAR2(30),
     idade INT
 );  
+
+SELECT * FROM petshop;
